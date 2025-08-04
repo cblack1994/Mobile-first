@@ -112,6 +112,33 @@ main {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
+  margin: 0 auto; 
+}
+
+.main-exchenge-container .backgroundImg {
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
-  
+  margin-bottom: 50px;
+  background-image: url('./assets/img/Bitcoin.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-exchenge-container--title h2
+{
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.main-exchenge-container--title p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
 }
