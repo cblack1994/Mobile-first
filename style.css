@@ -160,6 +160,11 @@ main {
   color: var(--bitcoin-orange);
 }
 
+.main-currency-table .color-text
+{
+  color: var(--secondary-blue);
+}
+
 .currency-table--container {
   width: 90%;
   min-width: 230px;
@@ -225,4 +230,25 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.currency-table-date {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+
+.backgroun__color 
+{
+  background-color: var(--soft-blue);
+}
+
+.currency-table-date p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
 }
